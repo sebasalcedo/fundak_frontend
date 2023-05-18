@@ -1,0 +1,23 @@
+<mat-form-field class="example-chip-list" appearance="outline">
+  <mat-chip-grid #chipGrid aria-label="Enter spring">
+    <mat-chip-row *ngFor="let spring of listText"
+                  (removed)="remove(spring)"
+                  [editable]="true"
+                  (edited)="edit(spring, $event)"
+                  
+                  [aria-description]="'press enter to edit ' + spring.name"
+                  color="accent">
+      {{spring.name}}
+      <button matChipRemove [attr.aria-label]="'remove ' + spring.name">
+        <i class="far fa-trash-alt"></i>
+      </button>
+    </mat-chip-row>
+    <input  placeholder="register Sprint"
+           [matChipInputFor]="chipGrid"
+           [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+           [matChipInputAddOnBlur]="addOnBlur"
+           (keyup.enter)="optionRegister()"
+           (matChipInputTokenEnd)="add($event)"/>
+  </mat-chip-grid>
+</mat-form-field>
+

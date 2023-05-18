@@ -1,0 +1,120 @@
+<div class="row">
+  <div class="offset-xl-2 col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="card">
+      <div class="card-header p-4">
+        <div class="float-right">
+          <button class=" pt-2 d-inline-block btn btn-space btn-secondary " (click)="openDialog('formComplete')">            <i class="fas fa-plus-circle"></i> New Lines
+          </button>
+
+          
+        </div>
+        <div class="pt-2 d-inline-block">
+          <h3 class="mb-0">Lines Management</h3>
+        </div>
+      </div>
+
+
+
+      <div class="card-body">
+        <app-search (messageEvent)="receiveSearch($event)"></app-search>
+
+      <br>
+        <div class="table-responsive-sm">
+          <table class="table table-striped table-bordered first">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Indicative</th>
+                <th>Description</th>
+                
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of listLines | paginate:page_size:page_number | searchFilter:filterText;  index as i ">
+                <td>{{ i + 1 }}</td>
+                <td>{{ item.name }}</td>
+                <td>{{ item.indicative }}</td>
+                <td>{{ item.description }}</td>
+               
+                <td>
+                  <div class="btn-group ml-auto">
+                    <button
+                      class="btn btn-sm btn-outline-light"
+                      matTooltip="Edit Line"
+                      matTooltipPosition="above"
+                      atTooltipHideDelay="100000"
+                      (click)="openDialog(item.id)"
+                    >
+                      Edit
+                    </button>
+                    <button
+                      class="btn btn-sm btn-outline-light"
+                      matTooltip="Groups"
+                      matTooltipPosition="above"
+                      atTooltipHideDelay="100000"
+                      (click)="openDialogGrups(item.id, item.name)"
+                    >
+                      <i class="far fa-object-group"></i>
+                    </button>
+                    <button
+                      class="btn btn-sm btn-outline-light"
+                      matTooltip="Programs"
+                      matTooltipPosition="above"
+                      atTooltipHideDelay="100000"
+
+                    >
+                      <i class="fab fa-app-store-ios"></i>
+                    </button>
+                    <!-- <button
+                      class="btn btn-sm btn-outline-light"
+                      matTooltip="Delete Line"
+                      matTooltipPosition="above"
+                      atTooltipHideDelay="100000"
+                    >
+                      <i class="far fa-trash-alt"></i>
+                    </button> -->
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Indicative</th>
+                <th>Description</th>
+                <th>Action</th>
+              </tr>
+            </tfoot>
+          </table>
+
+  <!-- TODO: HACER QUE SE PUEDA REUTLIZAR EL MAT PAGINATOR -->
+
+
+
+           <mat-paginator
+            #paginator
+            [pageSize]="page_size"
+            [pageSizeOptions]="[10, 15, 50,100]"
+            [showFirstLastButtons]="true"
+            [length]="listLines.length"
+            [pageIndex]="currentPage"
+            (page)="handlePage($event)"
+          >
+          </mat-paginator>
+        </div>
+
+
+        <div class="card-footer bg-white">
+          <p class="mb-0">List Lines</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

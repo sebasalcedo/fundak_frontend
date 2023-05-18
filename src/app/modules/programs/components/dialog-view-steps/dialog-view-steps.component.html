@@ -1,0 +1,46 @@
+<h2 mat-dialog-title>Listado de Steps</h2>
+<mat-dialog-content class="mat-typography">
+  <div class="card">
+    <div class="card-body">
+      <span *ngFor="let item of steps">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <div class="media influencer-profile-data d-flex align-items-center p-2">
+                  <div class="mr-4">
+                      <img src="assets/images/slack.png" alt="media" >
+                  </div>
+                  <div class="media-body ">
+                      <div class="influencer-profile-data">
+                          <h3 class="m-b-10"><strong>Number Step: {{item.numberStep}}</strong></h3>
+                          <p>
+                              <span class="m-r-20 d-inline-block ">interaction
+                                  <span class="m-l-10 text-primary">{{item.interaction}}</span>
+                              </span>
+                              <span class="m-r-20 d-inline-block"> Type Media
+                                  <span class="m-l-10 text-secondary">{{item.media}}</span>
+                                </span>
+                          </p>
+                          
+                      </div>
+
+                      <div class="influencer-profile-data">
+                        <h3 class="m-b-10">Description: </h3>
+                        <p>
+                          {{item.description}}
+                        </p>
+                        
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </span>
+    </div>
+
+</div>
+  
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button class="btn btn-success" mat-dialog-close>Cancel</button>
+
+</mat-dialog-actions>

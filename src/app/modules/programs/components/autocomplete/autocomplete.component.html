@@ -1,0 +1,24 @@
+<form [formGroup]="groupSearch">
+  <mat-form-field appearance="fill" style="width: 100%">
+    <mat-label>States Group</mat-label>
+    <input
+      type="text"
+      matInput
+      formControlName="name"
+      required
+      [matAutocomplete]="autoGroup"
+      
+    />
+    <mat-autocomplete #autoGroup="matAutocomplete">
+      <mat-optgroup
+        *ngFor="let group of groupOptions | async"
+        [label]="group.title"
+        
+      >
+        <mat-option *ngFor="let item of group.lisGroup" [value]="item.name" (onSelectionChange)="optionSelected(item)">
+          {{ item.name }}
+        </mat-option>
+      </mat-optgroup>
+    </mat-autocomplete>
+  </mat-form-field>
+</form>

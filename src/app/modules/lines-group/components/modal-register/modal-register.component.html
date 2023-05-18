@@ -1,0 +1,122 @@
+<h2 mat-dialog-title>
+  <strong>{{ titleDialog }}</strong>
+</h2>
+
+<mat-dialog-content class="mat-typography">
+  <hr />
+  <div class="pt-2 d-inline-block">
+    <h3 class="mb-0">{{ titleDialog }}</h3>
+  </div>
+  <form id="validationform" autocomplete="off" [formGroup]="linesForm">
+    <div class="form-group row">
+      <label class="col-12 col-sm-3 col-form-label text-sm-right">name:</label>
+      <div class="col-12 col-sm-8 col-lg-6">
+        <input type="text" placeholder="lines name" formControlName="name" />
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-12 col-sm-3 col-form-label text-sm-right"
+        >indicative:</label
+      >
+      <div class="col-12 col-sm-8 col-lg-6">
+        <input
+          type="text"
+          data-parsley-maxlength="2"
+          placeholder="Max 2 chars."
+          formControlName="indicative"
+        />
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-12 col-sm-3 col-form-label text-sm-right"
+        >description:</label
+      >
+      <div class="col-12 col-sm-8 col-lg-6">
+        <textarea formControlName="description"></textarea>
+      </div>
+    </div>
+  </form>
+  <hr />
+
+  <!-- formulario de grupos -->
+  <div *ngIf="data.idLine == 'formComplete'; else updateLine">
+    <form id="validationform" autocomplete="off" [formGroup]="groupForm">
+      <div class="pt-2 d-inline-block">
+        <h3 class="mb-0">Register Data Groups</h3>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-12 col-sm-3 col-form-label text-sm-right"
+          >name:</label
+        >
+        <div class="col-12 col-sm-8 col-lg-6">
+          <input type="text" placeholder="Group name" formControlName="name" />
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-12 col-sm-3 col-form-label text-sm-right"
+          >description:</label
+        >
+        <div class="col-12 col-sm-8 col-lg-6">
+          <textarea formControlName="description"></textarea>
+        </div>
+      </div>
+      <button class="btn btn-primary" (click)="addGroups()">add</button>
+      <hr />
+
+      <!-- table Groups -->
+      <h3 class="align-items-center"><strong>list groups add</strong></h3>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">name</th>
+            <th scope="col">description</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of listGroups; index as i">
+            <th scope="row">{{ i + 1 }}</th>
+            <td>{{ item.name }}</td>
+            <td>{{ item.description }}</td>
+            <td>
+              <button
+                class="btn btn-sm btn-outline-light"
+                matTooltip="Delete data"
+                matTooltipPosition="above"
+                atTooltipHideDelay="100000"
+                (click)="removeGroups(i)"
+              >
+                <i class="far fa-trash-alt"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+
+    <mat-dialog-actions align="end">
+      <a class="btn btn-brand text-white" mat-dialog-close>Cancel</a>
+      <a
+        class="btn btn-primary text-white"
+        mat-dialog-close
+        cdkFocusInitial
+        (click)="registerLinesAndGroups()"
+        >Register</a
+      >
+    </mat-dialog-actions>
+  </div>
+  <ng-template #updateLine>
+    <mat-dialog-actions align="end">
+      <a class="btn btn-brand text-white" mat-dialog-close>Cancel</a>
+      <a
+        class="btn btn-primary text-white"
+        mat-dialog-close
+        cdkFocusInitial
+        (click)="updatedLine()"
+        >Updated</a
+      >
+    </mat-dialog-actions>
+  </ng-template>
+</mat-dialog-content>

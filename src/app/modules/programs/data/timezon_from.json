@@ -1,0 +1,1760 @@
+
+    [
+      {
+        "Pais": "Afganist�n",
+        "ISO3166": "AF",
+        "Zona horaria": "Hora est�ndar de Afganist�n",
+        "UTC": "(UTC+04:30)",
+        "Descripci�n de la zona horaria": "Kabul"
+      },
+      {
+        "Pais": "Islas �land",
+        "ISO3166": "AX",
+        "Zona horaria": "Hora est�ndar FLE",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Helsinki, Kyiv, Riga, Sofia, Tallin, Vilna"
+      },
+      {
+        "Pais": "Albania",
+        "ISO3166": "AL",
+        "Zona horaria": "Hora est�ndar Europa Central",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Belgrado, Budapest, Liubliana, Praga"
+      },
+      {
+        "Pais": "Argelia",
+        "ISO3166": "DZ",
+        "Zona horaria": "Hora est�ndar de �frica Central Occidental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�frica Central Occidental"
+      },
+      {
+        "Pais": "Samoa Americana",
+        "ISO3166": "AS",
+        "Zona horaria": "UTC-11",
+        "UTC": "(UTC-11:00)",
+        "Descripci�n de la zona horaria": "Hora universal coordinada-11"
+      },
+      {
+        "Pais": "Andorra",
+        "ISO3166": "AD",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "Angola",
+        "ISO3166": "AO",
+        "Zona horaria": "Hora est�ndar de �frica Central Occidental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�frica Central Occidental"
+      },
+      {
+        "Pais": "Anguila",
+        "ISO3166": "INTELIGENCIA ARTIFICIAL",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Ant�rtida",
+        "ISO3166": "AQ",
+        "Zona horaria": "Hora est�ndar del Pac�fico, Sudam�rica",
+        "UTC": "(UTC-03:00)",
+        "Descripci�n de la zona horaria": "Santiago"
+      },
+      {
+        "Pais": "Antigua y Barbuda",
+        "ISO3166": "AG",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Argentina",
+        "ISO3166": "AR",
+        "Zona horaria": "Hora est�ndar de Argentina",
+        "UTC": "(UTC-03:00)",
+        "Descripci�n de la zona horaria": "Ciudad de Buenos Aires"
+      },
+      {
+        "Pais": "Armenia",
+        "ISO3166": "AM",
+        "Zona horaria": "Hora est�ndar del C�ucaso",
+        "UTC": "(UTC+04:00)",
+        "Descripci�n de la zona horaria": "Erev�n"
+      },
+      {
+        "Pais": "Aruba",
+        "ISO3166": "AW",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Australia",
+        "ISO3166": "AU",
+        "Zona horaria": "Hora est�ndar Australia Oriental",
+        "UTC": "(UTC+10:00)",
+        "Descripci�n de la zona horaria": "Canberra, Melbourne, S�dney"
+      },
+      {
+        "Pais": "Austria",
+        "ISO3166": "AT",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "Azerbaiy�n",
+        "ISO3166": "AZ",
+        "Zona horaria": "Hora est�ndar de Azerbaiy�n",
+        "UTC": "(UTC+04:00)",
+        "Descripci�n de la zona horaria": "Bak�"
+      },
+      {
+        "Pais": "Bahamas",
+        "ISO3166": "BS",
+        "Zona horaria": "Hora est�ndar del Este",
+        "UTC": "(UTC-05:00)",
+        "Descripci�n de la zona horaria": "Hora oriental (Canad� de EE. UU. & )"
+      },
+      {
+        "Pais": "Bahr�in",
+        "ISO3166": "BH",
+        "Zona horaria": "Hora est�ndar �rabe",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Kuwait, Riad"
+      },
+      {
+        "Pais": "Banglad�s",
+        "ISO3166": "BD",
+        "Zona horaria": "Hora est�ndar de Banglad�s",
+        "UTC": "(UTC+06:00)",
+        "Descripci�n de la zona horaria": "Dhaka"
+      },
+      {
+        "Pais": "Barbados",
+        "ISO3166": "BB",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Belar�s",
+        "ISO3166": "BY",
+        "Zona horaria": "Hora est�ndar de Belar�s",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Minsk"
+      },
+      {
+        "Pais": "B�lgica",
+        "ISO3166": "BE",
+        "Zona horaria": "Hora est�ndar romance",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Bruselas, Copenhague, Madrid, Par�s"
+      },
+      {
+        "Pais": "Belice",
+        "ISO3166": "BZ",
+        "Zona horaria": "Hora est�ndar de Centroam�rica",
+        "UTC": "(UTC-06:00)",
+        "Descripci�n de la zona horaria": "Centroam�rica"
+      },
+      {
+        "Pais": "Ben�n",
+        "ISO3166": "BJ",
+        "Zona horaria": "Hora est�ndar de �frica Central Occidental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�frica Central Occidental"
+      },
+      {
+        "Pais": "Bermudas",
+        "ISO3166": "BM",
+        "Zona horaria": "Hora est�ndar del Atl�ntico",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Hora del Atl�ntico (Canad�)"
+      },
+      {
+        "Pais": "But�n",
+        "ISO3166": "BT",
+        "Zona horaria": "Hora est�ndar de Banglad�s",
+        "UTC": "(UTC+06:00)",
+        "Descripci�n de la zona horaria": "Dhaka"
+      },
+      {
+        "Pais": "Rep�blica Bolivariana de Venezuela",
+        "ISO3166": "VE",
+        "Zona horaria": "Hora est�ndar de Venezuela",
+        "UTC": "(UTC-04:30)",
+        "Descripci�n de la zona horaria": "Caracas"
+      },
+      {
+        "Pais": "Bolivia",
+        "ISO3166": "BO",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Bonaire, San Eustaquio y Saba",
+        "ISO3166": "BQ",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Bosnia y Herzegovina",
+        "ISO3166": "BA",
+        "Zona horaria": "Hora est�ndar centroeuropea",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Sarajevo, Skopje, Varsovia, Zagreb"
+      },
+      {
+        "Pais": "Botsuana",
+        "ISO3166": "BW",
+        "Zona horaria": "Hora est�ndar de Sud�frica",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Harare, Comento"
+      },
+      {
+        "Pais": "Isla Bouvet",
+        "ISO3166": "BV",
+        "Zona horaria": "UTC",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Hora universal coordinada"
+      },
+      {
+        "Pais": "Brasil",
+        "ISO3166": "BR",
+        "Zona horaria": "E. Hora est�ndar Sudam�rica",
+        "UTC": "(UTC-03:00)",
+        "Descripci�n de la zona horaria": "Brasilia"
+      },
+      {
+        "Pais": "Territorio Brit�nico del Oc�ano �ndico",
+        "ISO3166": "IO",
+        "Zona horaria": "est�ndar de Asia Central Norte",
+        "UTC": "(UTC+06:00)",
+        "Descripci�n de la zona horaria": "Astana"
+      },
+      {
+        "Pais": "Brun�i",
+        "ISO3166": "BN",
+        "Zona horaria": "Hora est�ndar de Singapur",
+        "UTC": "(UTC+08:00)",
+        "Descripci�n de la zona horaria": "Kuala Lumpur, Singapur"
+      },
+      {
+        "Pais": "Bulgaria",
+        "ISO3166": "BG",
+        "Zona horaria": "Hora est�ndar FLE",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Helsinki, Kyiv, Riga, Sofia, Tallin, Vilna"
+      },
+      {
+        "Pais": "Burkina Faso",
+        "ISO3166": "BF",
+        "Zona horaria": "Hora est�ndar de Greenwich",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Monrovia, Reykjavik"
+      },
+      {
+        "Pais": "Burundi",
+        "ISO3166": "BI",
+        "Zona horaria": "Hora est�ndar de Sud�frica",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Harare, Con�ctese"
+      },
+      {
+        "Pais": "Cabo Verde",
+        "ISO3166": "CV",
+        "Zona horaria": "Hora est�ndar de Cabo Verde",
+        "UTC": "(UTC-01:00)",
+        "Descripci�n de la zona horaria": "Cabo Verde es."
+      },
+      {
+        "Pais": "Camboya",
+        "ISO3166": "KH",
+        "Zona horaria": "Hora est�ndar de Asia Sureste",
+        "UTC": "(UTC+07:00)",
+        "Descripci�n de la zona horaria": "Bangkok, Hanoi, Jakarta"
+      },
+      {
+        "Pais": "Camer�n",
+        "ISO3166": "CM",
+        "Zona horaria": "Hora est�ndar de �frica Central Occidental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Centro-oeste de �frica"
+      },
+      {
+        "Pais": "Canad�",
+        "ISO3166": "CA",
+        "Zona horaria": "Hora est�ndar del Este",
+        "UTC": "(UTC-05:00)",
+        "Descripci�n de la zona horaria": "Hora oriental (Canad� & )"
+      },
+      {
+        "Pais": "Islas Caim�n",
+        "ISO3166": "KY",
+        "Zona horaria": "Hora est�ndar del Pac�fico, Sudam�rica",
+        "UTC": "(UTC-05:00)",
+        "Descripci�n de la zona horaria": "Bogot�, Lima, Quito, R�o Branco"
+      },
+      {
+        "Pais": "Rep�blica Centroafricana",
+        "ISO3166": "CF",
+        "Zona horaria": "Hora est�ndar de �frica Central Occidental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Centro-oeste de �frica"
+      },
+      {
+        "Pais": "Chad",
+        "ISO3166": "TD",
+        "Zona horaria": "Hora est�ndar de �frica Central Occidental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Centro-oeste de �frica"
+      },
+      {
+        "Pais": "Chile",
+        "ISO3166": "CL",
+        "Zona horaria": "Hora est�ndar del Pac�fico, Sudam�rica",
+        "UTC": "(UTC-03:00)",
+        "Descripci�n de la zona horaria": "Santiago"
+      },
+      {
+        "Pais": "China",
+        "ISO3166": "CN",
+        "Zona horaria": "Hora est�ndar de China",
+        "UTC": "(UTC+08:00)",
+        "Descripci�n de la zona horaria": "Beijing, Chongqing, Hong Kong, Urumqi"
+      },
+      {
+        "Pais": "Isla de Navidad",
+        "ISO3166": "CX",
+        "Zona horaria": "Hora est�ndar de Asia Sureste",
+        "UTC": "(UTC+07:00)",
+        "Descripci�n de la zona horaria": "Bangkok, Hanoi, Jakarta"
+      },
+      {
+        "Pais": "Islas Cocos (Keeling)",
+        "ISO3166": "CC",
+        "Zona horaria": "Hora est�ndar de Myanmar",
+        "UTC": "(UTC+06:30)",
+        "Descripci�n de la zona horaria": "Yangon (Rangoon)"
+      },
+      {
+        "Pais": "Colombia",
+        "ISO3166": "CO",
+        "Zona horaria": "Hora est�ndar del Pac�fico, Sudam�rica",
+        "UTC": "(UTC-05:00)",
+        "Descripci�n de la zona horaria": "Bogot�, Lima, Quito, R�o Branco"
+      },
+      {
+        "Pais": "Comores",
+        "ISO3166": "KM",
+        "Zona horaria": "E. Hora est�ndar de �frica Oriental",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Nairobi"
+      },
+      {
+        "Pais": "Congo (RDC)",
+        "ISO3166": "CG",
+        "Zona horaria": "Hora est�ndar de �frica Central Occidental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Centro-oeste de �frica"
+      },
+      {
+        "Pais": "Congo (RDC)",
+        "ISO3166": "CD",
+        "Zona horaria": "Hora est�ndar de �frica Central Occidental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Centro-oeste de �frica"
+      },
+      {
+        "Pais": "Islas Cook",
+        "ISO3166": "CK",
+        "Zona horaria": "Hora est�ndar de Haw�i",
+        "UTC": "(UTC-10:00)",
+        "Descripci�n de la zona horaria": "Haw�i"
+      },
+      {
+        "Pais": "Costa Rica",
+        "ISO3166": "CR",
+        "Zona horaria": "Hora est�ndar de Centroam�rica",
+        "UTC": "(UTC-06:00)",
+        "Descripci�n de la zona horaria": "Centroam�rica"
+      },
+      {
+        "Pais": "C�te d'Ivoire",
+        "ISO3166": "CI",
+        "Zona horaria": "Hora est�ndar de Greenwich",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Monrovia, Reykjavik"
+      },
+      {
+        "Pais": "Croacia",
+        "ISO3166": "HR",
+        "Zona horaria": "Hora est�ndar centroeuropea",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Zagrebo, Skopje, Varsovia, Zagreb"
+      },
+      {
+        "Pais": "Cuba",
+        "ISO3166": "CU",
+        "Zona horaria": "Hora est�ndar del Este",
+        "UTC": "(UTC-05:00)",
+        "Descripci�n de la zona horaria": "Hora oriental (Canad� & )"
+      },
+      {
+        "Pais": "Curazao",
+        "ISO3166": "CW",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Chipre",
+        "ISO3166": "CY",
+        "Zona horaria": "E. est�ndar Europa Oriental",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "E. Europa"
+      },
+      {
+        "Pais": "Rep�blica Checa",
+        "ISO3166": "CZ",
+        "Zona horaria": "Hora est�ndar Europa Central",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Belgrado, Budapest, Liubliana, Praga"
+      },
+      {
+        "Pais": "Rep�blica Democr�tica de Timor-Leste",
+        "ISO3166": "TL",
+        "Zona horaria": "Hora est�ndar de Tokio",
+        "UTC": "(UTC+09:00)",
+        "Descripci�n de la zona horaria": "Osaka, Sapporo, Tokio"
+      },
+      {
+        "Pais": "Dinamarca",
+        "ISO3166": "DK",
+        "Zona horaria": "Hora est�ndar romance",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Bruselas, Copenhague, Madrid, Par�s"
+      },
+      {
+        "Pais": "Yibuti",
+        "ISO3166": "DJ",
+        "Zona horaria": "E. Hora est�ndar de �frica Oriental",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Nairobi"
+      },
+      {
+        "Pais": "Dominica",
+        "ISO3166": "DM",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Rep�blica Dominicana",
+        "ISO3166": "DO",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Ecuador",
+        "ISO3166": "EC",
+        "Zona horaria": "Hora est�ndar del Pac�fico, Sudam�rica",
+        "UTC": "(UTC-05:00)",
+        "Descripci�n de la zona horaria": "Bogot�, Lima, Quito, R�o Branco"
+      },
+      {
+        "Pais": "Egipto",
+        "ISO3166": "EG",
+        "Zona horaria": "Hora est�ndar de Egipto",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "El Cairo"
+      },
+      {
+        "Pais": "El Salvador",
+        "ISO3166": "SV",
+        "Zona horaria": "Hora est�ndar de Centroam�rica",
+        "UTC": "(UTC-06:00)",
+        "Descripci�n de la zona horaria": "Centroam�rica"
+      },
+      {
+        "Pais": "Guinea Ecuatorial",
+        "ISO3166": "GQ",
+        "Zona horaria": "Hora est�ndar de �frica Central Occidental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Centro-oeste de �frica"
+      },
+      {
+        "Pais": "Eritrea",
+        "ISO3166": "ER",
+        "Zona horaria": "E. Hora est�ndar de �frica Oriental",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Nairobi"
+      },
+      {
+        "Pais": "Estonia",
+        "ISO3166": "EE",
+        "Zona horaria": "Hora est�ndar FLE",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Helsinki, Kyiv, Riga, Sofia, Tallin, Vilna"
+      },
+      {
+        "Pais": "Etiop�a",
+        "ISO3166": "ET",
+        "Zona horaria": "E. Hora est�ndar de �frica Oriental",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Nairobi"
+      },
+      {
+        "Pais": "Islas Malvinas",
+        "ISO3166": "FK",
+        "Zona horaria": "Hora est�ndar de Sudam�rica Este",
+        "UTC": "(UTC-03:00)",
+        "Descripci�n de la zona horaria": "Cayenne, Fortaleza"
+      },
+      {
+        "Pais": "Islas Feroe",
+        "ISO3166": "FO",
+        "Zona horaria": "Hora est�ndar GMT",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Dubl�n, Edimburgo, Lisboa, Londres"
+      },
+      {
+        "Pais": "Islas Fiyi",
+        "ISO3166": "FJ",
+        "Zona horaria": "Hora est�ndar de Fiyi",
+        "UTC": "(UTC+12:00)",
+        "Descripci�n de la zona horaria": "Fiyi"
+      },
+      {
+        "Pais": "Finlandia",
+        "ISO3166": "FI",
+        "Zona horaria": "Hora est�ndar FLE",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Helsinki, Kyiv, Riga, Sofia, Tallin, Vilna"
+      },
+      {
+        "Pais": "Francia",
+        "ISO3166": "VF",
+        "Zona horaria": "Hora est�ndar romance",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Bruselas, Copenhague, Madrid, Par�s"
+      },
+      {
+        "Pais": "Guayana Francesa",
+        "ISO3166": "GF",
+        "Zona horaria": "Hora est�ndar de Sudam�rica Este",
+        "UTC": "(UTC-03:00)",
+        "Descripci�n de la zona horaria": "Cayenne, Fortaleza"
+      },
+      {
+        "Pais": "Polinesia francesa",
+        "ISO3166": "PF",
+        "Zona horaria": "Hora est�ndar de Haw�i",
+        "UTC": "(UTC-10:00)",
+        "Descripci�n de la zona horaria": "Haw�i"
+      },
+      {
+        "Pais": "Tierras Australes y Ant�rticas Francesas",
+        "ISO3166": "TF",
+        "Zona horaria": "Hora est�ndar Asia Occidental",
+        "UTC": "(UTC+05:00)",
+        "Descripci�n de la zona horaria": "Ashgabat, Tashkent"
+      },
+      {
+        "Pais": "Gab�n",
+        "ISO3166": "GA",
+        "Zona horaria": "Hora est�ndar de �frica Central Occidental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Centro-oeste de �frica"
+      },
+      {
+        "Pais": "Gambia",
+        "ISO3166": "GM",
+        "Zona horaria": "Hora est�ndar de Greenwich",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Monrovia, Reykjavik"
+      },
+      {
+        "Pais": "Georgia",
+        "ISO3166": "GE",
+        "Zona horaria": "Hora est�ndar de Georgia",
+        "UTC": "(UTC+04:00)",
+        "Descripci�n de la zona horaria": "Tbilisi"
+      },
+      {
+        "Pais": "Alemania",
+        "ISO3166": "DE",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "Ghana",
+        "ISO3166": "GH",
+        "Zona horaria": "Hora est�ndar de Greenwich",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Monrovia, Reykjavik"
+      },
+      {
+        "Pais": "Gibraltar",
+        "ISO3166": "GI",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "Grecia",
+        "ISO3166": "GR",
+        "Zona horaria": "Hora est�ndar GTB",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Atenas, Bucarest"
+      },
+      {
+        "Pais": "Groenlandia",
+        "ISO3166": "GL",
+        "Zona horaria": "Hora est�ndar de Groenlandia",
+        "UTC": "(UTC-03:00)",
+        "Descripci�n de la zona horaria": "Groenlandia"
+      },
+      {
+        "Pais": "Granada",
+        "ISO3166": "GD",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Guadalupe",
+        "ISO3166": "GP",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Guam",
+        "ISO3166": "GU",
+        "Zona horaria": "Hora est�ndar del Pac�fico Occidental",
+        "UTC": "(UTC+10:00)",
+        "Descripci�n de la zona horaria": ", Port Moresby"
+      },
+      {
+        "Pais": "Guatemala",
+        "ISO3166": "GT",
+        "Zona horaria": "Hora est�ndar de Centroam�rica",
+        "UTC": "(UTC-06:00)",
+        "Descripci�n de la zona horaria": "Centroam�rica"
+      },
+      {
+        "Pais": "Guernsey",
+        "ISO3166": "GG",
+        "Zona horaria": "Hora est�ndar GMT",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Dubl�n, Edimburgo, Lisboa, Londres"
+      },
+      {
+        "Pais": "Guinea",
+        "ISO3166": "GN",
+        "Zona horaria": "Hora est�ndar de Greenwich",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Monrovia, Reykjavik"
+      },
+      {
+        "Pais": "Guinea-Bis�u",
+        "ISO3166": "GW",
+        "Zona horaria": "Hora est�ndar de Greenwich",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Monrovia, Reykjavik"
+      },
+      {
+        "Pais": "Guayana",
+        "ISO3166": "GY",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Hait�",
+        "ISO3166": "HT",
+        "Zona horaria": "Hora est�ndar del Este",
+        "UTC": "(UTC-05:00)",
+        "Descripci�n de la zona horaria": "Hora oriental (Canad� & )"
+      },
+      {
+        "Pais": "Isla Heard e Islas McDonald",
+        "ISO3166": "HM",
+        "Zona horaria": "Hora est�ndar de Mauricio",
+        "UTC": "(UTC+04:00)",
+        "Descripci�n de la zona horaria": "Puerto Louis"
+      },
+      {
+        "Pais": "Honduras",
+        "ISO3166": "HN",
+        "Zona horaria": "Hora est�ndar de Centroam�rica",
+        "UTC": "(UTC-06:00)",
+        "Descripci�n de la zona horaria": "Centroam�rica"
+      },
+      {
+        "Pais": "RAE de Hong Kong",
+        "ISO3166": "HK",
+        "Zona horaria": "Hora est�ndar de China",
+        "UTC": "(UTC+08:00)",
+        "Descripci�n de la zona horaria": "Beijing, Chongqing, Hong Kong, Urumqi"
+      },
+      {
+        "Pais": "Hungr�a",
+        "ISO3166": "HU",
+        "Zona horaria": "Hora est�ndar Europa Central",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Belgrado, Budapest, Liubliana, Praga"
+      },
+      {
+        "Pais": "Islandia",
+        "ISO3166": "IS",
+        "Zona horaria": "Hora est�ndar de Greenwich",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Monrovia, Reykjavik"
+      },
+      {
+        "Pais": "India",
+        "ISO3166": "IN",
+        "Zona horaria": "Hora est�ndar de La India",
+        "UTC": "(UTC+05:30)",
+        "Descripci�n de la zona horaria": "Chennai, Kolkata, Mumbai, Nueva Delhi"
+      },
+      {
+        "Pais": "Indonesia",
+        "ISO3166": "ID",
+        "Zona horaria": "Hora est�ndar de Asia Sureste",
+        "UTC": "(UTC+07:00)",
+        "Descripci�n de la zona horaria": "Bangkok, Hanoi, Jakarta"
+      },
+      {
+        "Pais": "Ir�n",
+        "ISO3166": "IR",
+        "Zona horaria": "Hora est�ndar de Ir�n",
+        "UTC": "(UTC+03:30)",
+        "Descripci�n de la zona horaria": "Teher�n"
+      },
+      {
+        "Pais": "Iraq",
+        "ISO3166": "IQ",
+        "Zona horaria": "Hora est�ndar ar�bica",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Bagdad"
+      },
+      {
+        "Pais": "Irlanda",
+        "ISO3166": "IE",
+        "Zona horaria": "Hora est�ndar GMT",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Dubl�n, Edimburgo, Lisboa, Londres"
+      },
+      {
+        "Pais": "Israel",
+        "ISO3166": "IL",
+        "Zona horaria": "Hora est�ndar de Israel",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Jerusal�n"
+      },
+      {
+        "Pais": "Italia",
+        "ISO3166": "IT",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "Jamaica",
+        "ISO3166": "JM",
+        "Zona horaria": "Hora est�ndar del Pac�fico, Sudam�rica",
+        "UTC": "(UTC-05:00)",
+        "Descripci�n de la zona horaria": "Bogot�, Lima, Quito, R�o Branco"
+      },
+      {
+        "Pais": "Jan Mayen",
+        "ISO3166": "SJ",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "Jap�n",
+        "ISO3166": "JP",
+        "Zona horaria": "Hora est�ndar de Tokio",
+        "UTC": "(UTC+09:00)",
+        "Descripci�n de la zona horaria": "Osaka, Sapporo, Tokio"
+      },
+      {
+        "Pais": "Jersey",
+        "ISO3166": "JE",
+        "Zona horaria": "Hora est�ndar GMT",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Dubl�n, Edimburgo, Lisboa, Londres"
+      },
+      {
+        "Pais": "Jordania",
+        "ISO3166": "JO",
+        "Zona horaria": "Hora est�ndar de Jordania",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Amman"
+      },
+      {
+        "Pais": "Kazajist�n",
+        "ISO3166": "KZ",
+        "Zona horaria": "est�ndar de Asia Central Norte",
+        "UTC": "(UTC+06:00)",
+        "Descripci�n de la zona horaria": "Astana"
+      },
+      {
+        "Pais": "Kenia",
+        "ISO3166": "KE",
+        "Zona horaria": "E. Hora est�ndar de �frica Oriental",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Nairobi"
+      },
+      {
+        "Pais": "Kiribati",
+        "ISO3166": "KI",
+        "Zona horaria": "UTC+12",
+        "UTC": "(UTC+12:00)",
+        "Descripci�n de la zona horaria": "Hora universal coordinada+12"
+      },
+      {
+        "Pais": "Corea",
+        "ISO3166": "KR",
+        "Zona horaria": "Hora est�ndar de Corea",
+        "UTC": "(UTC+09:00)",
+        "Descripci�n de la zona horaria": "Se�l"
+      },
+      {
+        "Pais": "Kosovo",
+        "ISO3166": "XK",
+        "Zona horaria": "Hora est�ndar centroeuropea",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Zagrebo, Skopje, Varsovia, Zagreb"
+      },
+      {
+        "Pais": "Kuwait",
+        "ISO3166": "KW",
+        "Zona horaria": "Hora est�ndar �rabe",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Kuwait, Riad"
+      },
+      {
+        "Pais": "Kirguist�n",
+        "ISO3166": "KG",
+        "Zona horaria": "est�ndar de Asia Central Norte",
+        "UTC": "(UTC+06:00)",
+        "Descripci�n de la zona horaria": "Astana"
+      },
+      {
+        "Pais": "Laos",
+        "ISO3166": "Los �ngeles",
+        "Zona horaria": "Hora est�ndar de Asia Sureste",
+        "UTC": "(UTC+07:00)",
+        "Descripci�n de la zona horaria": "Bangkok, Hanoi, Jakarta"
+      },
+      {
+        "Pais": "Letonia",
+        "ISO3166": "LV",
+        "Zona horaria": "Hora est�ndar FLE",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Helsinki, Kyiv, Riga, Sofia, Tallin, Vilna"
+      },
+      {
+        "Pais": "L�bano",
+        "ISO3166": "LB",
+        "Zona horaria": "Hora est�ndar de Oriente Medio",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Beirut"
+      },
+      {
+        "Pais": "Lesoto",
+        "ISO3166": "LS",
+        "Zona horaria": "Hora est�ndar de Sud�frica",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Harare, Con�ctese"
+      },
+      {
+        "Pais": "Liberia",
+        "ISO3166": "LR",
+        "Zona horaria": "Hora est�ndar de Greenwich",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Monrovia, Reykjavik"
+      },
+      {
+        "Pais": "Libia",
+        "ISO3166": "LY",
+        "Zona horaria": "E. est�ndar Europa Oriental",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "E. Europa"
+      },
+      {
+        "Pais": "Liechtenstein",
+        "ISO3166": "LI",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "Lituania",
+        "ISO3166": "LT",
+        "Zona horaria": "Hora est�ndar FLE",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Helsinki, Kyiv, Riga, Sofia, Tallin, Vilna"
+      },
+      {
+        "Pais": "Luxemburgo",
+        "ISO3166": "LU",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "RAE de Macao",
+        "ISO3166": "MO",
+        "Zona horaria": "Hora est�ndar de China",
+        "UTC": "(UTC+08:00)",
+        "Descripci�n de la zona horaria": "Beijing, Chongqing, Hong Kong, Urumqi"
+      },
+      {
+        "Pais": "Macedonia, Ex-Rep�blica Yugoslava de",
+        "ISO3166": "MK",
+        "Zona horaria": "Hora est�ndar centroeuropea",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Zagrebo, Skopje, Varsovia, Zagreb"
+      },
+      {
+        "Pais": "Madagascar",
+        "ISO3166": "MG",
+        "Zona horaria": "E. Hora est�ndar de �frica Oriental",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Nairobi"
+      },
+      {
+        "Pais": "Malaui",
+        "ISO3166": "MW",
+        "Zona horaria": "Hora est�ndar de Sud�frica",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Harare, Con�ctese"
+      },
+      {
+        "Pais": "Malasia",
+        "ISO3166": "MY",
+        "Zona horaria": "Hora est�ndar de Singapur",
+        "UTC": "(UTC+08:00)",
+        "Descripci�n de la zona horaria": "Kuala Lumpur, Singapur"
+      },
+      {
+        "Pais": "Maldivas",
+        "ISO3166": "MV",
+        "Zona horaria": "Hora est�ndar Asia Occidental",
+        "UTC": "(UTC+05:00)",
+        "Descripci�n de la zona horaria": "Ashgabat, Tashkent"
+      },
+      {
+        "Pais": "Mal�",
+        "ISO3166": "ML",
+        "Zona horaria": "Hora est�ndar de Greenwich",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Monrovia, Reykjavik"
+      },
+      {
+        "Pais": "Malta",
+        "ISO3166": "MT",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "Man, Isla de",
+        "ISO3166": "IM",
+        "Zona horaria": "Hora est�ndar GMT",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Dubl�n, Edimburgo, Lisboa, Londres"
+      },
+      {
+        "Pais": "Islas Marshall",
+        "ISO3166": "MH",
+        "Zona horaria": "UTC+12",
+        "UTC": "(UTC+12:00)",
+        "Descripci�n de la zona horaria": "Hora universal coordinada+12"
+      },
+      {
+        "Pais": "Martinica",
+        "ISO3166": "MQ",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Mauritania",
+        "ISO3166": "MR",
+        "Zona horaria": "Hora est�ndar de Greenwich",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Monrovia, Reykjavik"
+      },
+      {
+        "Pais": "Mauricio",
+        "ISO3166": "MU",
+        "Zona horaria": "Hora est�ndar de Mauricio",
+        "UTC": "(UTC+04:00)",
+        "Descripci�n de la zona horaria": "Puerto Louis"
+      },
+      {
+        "Pais": "Mayotte",
+        "ISO3166": "YT",
+        "Zona horaria": "E. Hora est�ndar de �frica Oriental",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Nairobi"
+      },
+      {
+        "Pais": "M�xico",
+        "ISO3166": "MX",
+        "Zona horaria": "Hora est�ndar del Centro (M�xico)",
+        "UTC": "(UTC-06:00)",
+        "Descripci�n de la zona horaria": "Guadalajara, Ciudad de M�xico, Monterrey"
+      },
+      {
+        "Pais": "Micronesia",
+        "ISO3166": "FM",
+        "Zona horaria": "Hora est�ndar del Pac�fico Occidental",
+        "UTC": "(UTC+10:00)",
+        "Descripci�n de la zona horaria": ", Port Moresby"
+      },
+      {
+        "Pais": "Moldova",
+        "ISO3166": "MD",
+        "Zona horaria": "Hora est�ndar GTB",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Atenas, Bucarest"
+      },
+      {
+        "Pais": "M�naco",
+        "ISO3166": "MC",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "Mongolia",
+        "ISO3166": "MN",
+        "Zona horaria": "Hora est�ndar de Ul�n Bator",
+        "UTC": "(UTC+08:00)",
+        "Descripci�n de la zona horaria": "Ulaanbaatar"
+      },
+      {
+        "Pais": "Montenegro",
+        "ISO3166": "ME",
+        "Zona horaria": "Hora est�ndar centroeuropea",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Zagrebo, Skopje, Varsovia, Zagreb"
+      },
+      {
+        "Pais": "Montserrat",
+        "ISO3166": "MS",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Marruecos",
+        "ISO3166": "MA",
+        "Zona horaria": "Hora est�ndar de Marruecos",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Casablanca"
+      },
+      {
+        "Pais": "Mozambique",
+        "ISO3166": "MZ",
+        "Zona horaria": "Hora est�ndar de Sud�frica",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Harare, Con�ctese"
+      },
+      {
+        "Pais": "Myanmar",
+        "ISO3166": "MM",
+        "Zona horaria": "Hora est�ndar de Myanmar",
+        "UTC": "(UTC+06:30)",
+        "Descripci�n de la zona horaria": "Yangon (Rangoon)"
+      },
+      {
+        "Pais": "Namibia",
+        "ISO3166": "N/D",
+        "Zona horaria": "Hora est�ndar de Namibia",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Windhoek"
+      },
+      {
+        "Pais": "Nauru",
+        "ISO3166": "NR",
+        "Zona horaria": "UTC+12",
+        "UTC": "(UTC+12:00)",
+        "Descripci�n de la zona horaria": "Hora universal coordinada+12"
+      },
+      {
+        "Pais": "Nepal",
+        "ISO3166": "NP",
+        "Zona horaria": "Hora est�ndar de Nepal",
+        "UTC": "(UTC+05:45)",
+        "Descripci�n de la zona horaria": "Katmand�"
+      },
+      {
+        "Pais": "Paises Bajos",
+        "ISO3166": "NL",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "Nueva Caledonia",
+        "ISO3166": "NC",
+        "Zona horaria": "Hora est�ndar del Pac�fico Central",
+        "UTC": "(UTC+11:00)",
+        "Descripci�n de la zona horaria": "Salom�n Es., Nueva Guinea"
+      },
+      {
+        "Pais": "Nueva Zelanda",
+        "ISO3166": "NZ",
+        "Zona horaria": "Hora est�ndar de Nueva Zelanda",
+        "UTC": "(UTC+12:00)",
+        "Descripci�n de la zona horaria": "Auckland, Wellington"
+      },
+      {
+        "Pais": "Nicaragua",
+        "ISO3166": "NI",
+        "Zona horaria": "Hora est�ndar de Centroam�rica",
+        "UTC": "(UTC-06:00)",
+        "Descripci�n de la zona horaria": "Centroam�rica"
+      },
+      {
+        "Pais": "N�ger",
+        "ISO3166": "NE",
+        "Zona horaria": "Hora est�ndar de �frica Central Occidental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Centro-oeste de �frica"
+      },
+      {
+        "Pais": "Nigeria",
+        "ISO3166": "NG",
+        "Zona horaria": "Hora est�ndar de �frica Central Occidental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Centro-oeste de �frica"
+      },
+      {
+        "Pais": "Niue",
+        "ISO3166": "NU",
+        "Zona horaria": "UTC-11",
+        "UTC": "(UTC-11:00)",
+        "Descripci�n de la zona horaria": "Hora universal coordinada-11"
+      },
+      {
+        "Pais": "Isla Norfolk",
+        "ISO3166": "NF",
+        "Zona horaria": "Hora est�ndar del Pac�fico Central",
+        "UTC": "(UTC+11:00)",
+        "Descripci�n de la zona horaria": "Salom�n Es., Nueva Guinea"
+      },
+      {
+        "Pais": "Corea del Norte",
+        "ISO3166": "KP",
+        "Zona horaria": "Hora est�ndar de Corea",
+        "UTC": "(UTC+09:00)",
+        "Descripci�n de la zona horaria": "Se�l"
+      },
+      {
+        "Pais": "Islas Marianas del Norte",
+        "ISO3166": "MP",
+        "Zona horaria": "Hora est�ndar del Pac�fico Occidental",
+        "UTC": "(UTC+10:00)",
+        "Descripci�n de la zona horaria": ", Port Moresby"
+      },
+      {
+        "Pais": "Noruega",
+        "ISO3166": "No",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "Om�n",
+        "ISO3166": "OM",
+        "Zona horaria": "Hora est�ndar �rabe",
+        "UTC": "(UTC+04:00)",
+        "Descripci�n de la zona horaria": "Abu Dabi, Muscat"
+      },
+      {
+        "Pais": "Pakist�n",
+        "ISO3166": "PK",
+        "Zona horaria": "Hora est�ndar de Pakist�n",
+        "UTC": "(UTC+05:00)",
+        "Descripci�n de la zona horaria": "Islamabad, Karachi"
+      },
+      {
+        "Pais": "Palaos",
+        "ISO3166": "PW",
+        "Zona horaria": "Hora est�ndar de Tokio",
+        "UTC": "(UTC+09:00)",
+        "Descripci�n de la zona horaria": "Osaka, Sapporo, Tokio"
+      },
+      {
+        "Pais": "Autoridad palestina",
+        "ISO3166": "PS",
+        "Zona horaria": "Hora est�ndar de Egipto",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "El Cairo"
+      },
+      {
+        "Pais": "Panam�",
+        "ISO3166": "PA",
+        "Zona horaria": "Hora est�ndar del Pac�fico, Sudam�rica",
+        "UTC": "(UTC-05:00)",
+        "Descripci�n de la zona horaria": "Bogot�, Lima, Quito, R�o Branco"
+      },
+      {
+        "Pais": "Pap�a Nueva Guinea",
+        "ISO3166": "PG",
+        "Zona horaria": "Hora est�ndar del Pac�fico Occidental",
+        "UTC": "(UTC+10:00)",
+        "Descripci�n de la zona horaria": ", Port Moresby"
+      },
+      {
+        "Pais": "Paraguay",
+        "ISO3166": "PY",
+        "Zona horaria": "Hora est�ndar de Paraguay",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Asunci�n"
+      },
+      {
+        "Pais": "Per�",
+        "ISO3166": "PE",
+        "Zona horaria": "Hora est�ndar del Pac�fico, Sudam�rica",
+        "UTC": "(UTC-05:00)",
+        "Descripci�n de la zona horaria": "Bogot�, Lima, Quito, R�o Branco"
+      },
+      {
+        "Pais": "Filipinas",
+        "ISO3166": "PH",
+        "Zona horaria": "Hora est�ndar de Singapur",
+        "UTC": "(UTC+08:00)",
+        "Descripci�n de la zona horaria": "Kuala Lumpur, Singapur"
+      },
+      {
+        "Pais": "Islas Pitcairn",
+        "ISO3166": "PN",
+        "Zona horaria": "Hora est�ndar del Pac�fico",
+        "UTC": "(UTC-08:00)",
+        "Descripci�n de la zona horaria": "Hora del Pac�fico (Canad� de EE. UU. & )"
+      },
+      {
+        "Pais": "Polonia",
+        "ISO3166": "PL",
+        "Zona horaria": "Hora est�ndar centroeuropea",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Zagrebo, Skopje, Varsovia, Zagreb"
+      },
+      {
+        "Pais": "Portugal",
+        "ISO3166": "PT",
+        "Zona horaria": "Hora est�ndar GMT",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Dubl�n, Edimburgo, Lisboa, Londres"
+      },
+      {
+        "Pais": "Puerto Rico",
+        "ISO3166": "PR",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Qatar",
+        "ISO3166": "QA",
+        "Zona horaria": "Hora est�ndar �rabe",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Kuwait, Riad"
+      },
+      {
+        "Pais": "Reuni�n",
+        "ISO3166": "RE",
+        "Zona horaria": "Hora est�ndar de Mauricio",
+        "UTC": "(UTC+04:00)",
+        "Descripci�n de la zona horaria": "Puerto Louis"
+      },
+      {
+        "Pais": "Ruman�a",
+        "ISO3166": "RO",
+        "Zona horaria": "Hora est�ndar GTB",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Atenas, Bucarest"
+      },
+      {
+        "Pais": "Rusia",
+        "ISO3166": "RU",
+        "Zona horaria": "Hora est�ndar de Rusia",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Mosc�, San Petersburgo, Volgograd (RTZ 2)"
+      },
+      {
+        "Pais": "Ruanda",
+        "ISO3166": "RW",
+        "Zona horaria": "Hora est�ndar de Sud�frica",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Harare, Con�ctese"
+      },
+      {
+        "Pais": "San Bartolom�",
+        "ISO3166": "BL",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Santa Elena, Ascensi�n y Trist�n da Cunha",
+        "ISO3166": "SH",
+        "Zona horaria": "Hora est�ndar de Greenwich",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Monrovia, Reykjavik"
+      },
+      {
+        "Pais": "San Crist�bal y Nieves",
+        "ISO3166": "KN",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Santa Luc�a",
+        "ISO3166": "LC",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "San Mart�n (zona francesa)",
+        "ISO3166": "MF",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "San Pedro y Miquel�n",
+        "ISO3166": "PM",
+        "Zona horaria": "Hora est�ndar de Groenlandia",
+        "UTC": "(UTC-03:00)",
+        "Descripci�n de la zona horaria": "Groenlandia"
+      },
+      {
+        "Pais": "San Vicente y las Granadinas",
+        "ISO3166": "VC",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Samoa",
+        "ISO3166": "WS",
+        "Zona horaria": "Hora est�ndar de Samoa",
+        "UTC": "(UTC+13:00)",
+        "Descripci�n de la zona horaria": "Samoa"
+      },
+      {
+        "Pais": "San Marino",
+        "ISO3166": "SM",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "Santo Tom� y Pr�ncipe",
+        "ISO3166": "ST",
+        "Zona horaria": "Hora est�ndar de Greenwich",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Monrovia, Reykjavik"
+      },
+      {
+        "Pais": "Arabia Saud�",
+        "ISO3166": "SA",
+        "Zona horaria": "Hora est�ndar �rabe",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Kuwait, Riad"
+      },
+      {
+        "Pais": "Senegal",
+        "ISO3166": "SN",
+        "Zona horaria": "Hora est�ndar de Greenwich",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Monrovia, Reykjavik"
+      },
+      {
+        "Pais": "Serbia",
+        "ISO3166": "RS",
+        "Zona horaria": "Hora est�ndar Europa Central",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Belgrado, Budapest, Liubliana, Praga"
+      },
+      {
+        "Pais": "Seychelles",
+        "ISO3166": "SC",
+        "Zona horaria": "Hora est�ndar de Mauricio",
+        "UTC": "(UTC+04:00)",
+        "Descripci�n de la zona horaria": "Puerto Louis"
+      },
+      {
+        "Pais": "Sierra Leona",
+        "ISO3166": "SL",
+        "Zona horaria": "Hora est�ndar de Greenwich",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Monrovia, Reykjavik"
+      },
+      {
+        "Pais": "Singapur",
+        "ISO3166": "SG",
+        "Zona horaria": "Hora est�ndar de Singapur",
+        "UTC": "(UTC+08:00)",
+        "Descripci�n de la zona horaria": "Kuala Lumpur, Singapur"
+      },
+      {
+        "Pais": "Sint Maarten (zona neerlandesa)",
+        "ISO3166": "SX",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Eslovaquia",
+        "ISO3166": "SK",
+        "Zona horaria": "Hora est�ndar Europa Central",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Belgrado, Budapest, Liubliana, Praga"
+      },
+      {
+        "Pais": "Eslovenia",
+        "ISO3166": "SI",
+        "Zona horaria": "Hora est�ndar Europa Central",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Belgrado, Budapest, Liubliana, Praga"
+      },
+      {
+        "Pais": "Islas Salom�n",
+        "ISO3166": "SB",
+        "Zona horaria": "Hora est�ndar del Pac�fico Central",
+        "UTC": "(UTC+11:00)",
+        "Descripci�n de la zona horaria": "Salom�n Es., Nueva Guinea"
+      },
+      {
+        "Pais": "Somalia",
+        "ISO3166": "SO",
+        "Zona horaria": "E. Hora est�ndar de �frica Oriental",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Nairobi"
+      },
+      {
+        "Pais": "Sud�frica",
+        "ISO3166": "ZA",
+        "Zona horaria": "Hora est�ndar de Sud�frica",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Harare, Comento"
+      },
+      {
+        "Pais": "Islas Georgia del Sur y Sandwich del Sur",
+        "ISO3166": "GS",
+        "Zona horaria": "UTC-02",
+        "UTC": "(UTC-02:00)",
+        "Descripci�n de la zona horaria": "Hora universal coordinada-02"
+      },
+      {
+        "Pais": "Sud�n del Sur",
+        "ISO3166": "SS",
+        "Zona horaria": "E. Hora est�ndar de �frica Oriental",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Nairobi"
+      },
+      {
+        "Pais": "Espa�a",
+        "ISO3166": "ES",
+        "Zona horaria": "Hora est�ndar romance",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Bruselas, Copenhague, Madrid, Par�s"
+      },
+      {
+        "Pais": "Sri Lanka",
+        "ISO3166": "LK",
+        "Zona horaria": "Hora est�ndar de Sri Lanka",
+        "UTC": "(UTC+05:30)",
+        "Descripci�n de la zona horaria": "Sri Jayawardenepura"
+      },
+      {
+        "Pais": "Sud�n",
+        "ISO3166": "SD",
+        "Zona horaria": "E. Hora est�ndar de �frica Oriental",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Nairobi"
+      },
+      {
+        "Pais": "Surinam",
+        "ISO3166": "SR",
+        "Zona horaria": "Hora est�ndar de Sudam�rica Este",
+        "UTC": "(UTC-03:00)",
+        "Descripci�n de la zona horaria": "Cayenne, Fortaleza"
+      },
+      {
+        "Pais": "Svalbard",
+        "ISO3166": "SJ",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "Suazilandia",
+        "ISO3166": "SZ",
+        "Zona horaria": "Hora est�ndar de Sud�frica",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Harare, Comento"
+      },
+      {
+        "Pais": "Suecia",
+        "ISO3166": "SE",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "Suiza",
+        "ISO3166": "CH",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "Siria",
+        "ISO3166": "SY",
+        "Zona horaria": "Hora est�ndar de Siria",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Damasco"
+      },
+      {
+        "Pais": "Taiw�n",
+        "ISO3166": "TW",
+        "Zona horaria": "Hora est�ndar de Taip�i",
+        "UTC": "(UTC+08:00)",
+        "Descripci�n de la zona horaria": "Taip�i"
+      },
+      {
+        "Pais": "Tayikist�n",
+        "ISO3166": "TJ",
+        "Zona horaria": "Hora est�ndar Asia Occidental",
+        "UTC": "(UTC+05:00)",
+        "Descripci�n de la zona horaria": "Ashgabat, Tashkent"
+      },
+      {
+        "Pais": "Tanzania",
+        "ISO3166": "TZ",
+        "Zona horaria": "E. Hora est�ndar de �frica Oriental",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Nairobi"
+      },
+      {
+        "Pais": "Tailandia",
+        "ISO3166": "TH",
+        "Zona horaria": "Hora est�ndar de Asia Sureste",
+        "UTC": "(UTC+07:00)",
+        "Descripci�n de la zona horaria": "Bangkok, Hanoi, Jakarta"
+      },
+      {
+        "Pais": "Togo",
+        "ISO3166": "TG",
+        "Zona horaria": "Hora est�ndar de Greenwich",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Monrovia, Reykjavik"
+      },
+      {
+        "Pais": "Tokelau",
+        "ISO3166": "TK",
+        "Zona horaria": "Hora est�ndar de Tonga",
+        "UTC": "(UTC+13:00)",
+        "Descripci�n de la zona horaria": "Nukualofa"
+      },
+      {
+        "Pais": "Tonga",
+        "ISO3166": "TO",
+        "Zona horaria": "Hora est�ndar de Tonga",
+        "UTC": "(UTC+13:00)",
+        "Descripci�n de la zona horaria": "Nukualofa"
+      },
+      {
+        "Pais": "Trinidad y Tobago",
+        "ISO3166": "TT",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "T�nez",
+        "ISO3166": "TN",
+        "Zona horaria": "Hora est�ndar de �frica Central Occidental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "Centro-oeste de �frica"
+      },
+      {
+        "Pais": "Turqu�a",
+        "ISO3166": "TR",
+        "Zona horaria": "Hora est�ndar de Turqu�a",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Estambul"
+      },
+      {
+        "Pais": "Turkmenist�n",
+        "ISO3166": "TM",
+        "Zona horaria": "Hora est�ndar Asia Occidental",
+        "UTC": "(UTC+05:00)",
+        "Descripci�n de la zona horaria": "Ashgabat, Tashkent"
+      },
+      {
+        "Pais": "Islas Turcas y Caicos",
+        "ISO3166": "TC",
+        "Zona horaria": "Hora est�ndar del Este",
+        "UTC": "(UTC-05:00)",
+        "Descripci�n de la zona horaria": "Hora oriental (Canad� & )"
+      },
+      {
+        "Pais": "Tuvalu",
+        "ISO3166": "TV",
+        "Zona horaria": "UTC+12",
+        "UTC": "(UTC+12:00)",
+        "Descripci�n de la zona horaria": "Hora universal coordinada+12"
+      },
+      {
+        "Pais": "EE. UU. Islas menores alejadas de EE.�UU.",
+        "ISO3166": "UM",
+        "Zona horaria": "UTC-11",
+        "UTC": "(UTC-11:00)",
+        "Descripci�n de la zona horaria": "Hora universal coordinada-11"
+      },
+      {
+        "Pais": "Uganda",
+        "ISO3166": "UG",
+        "Zona horaria": "E. Hora est�ndar de �frica Oriental",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Nairobi"
+      },
+      {
+        "Pais": "Ucrania",
+        "ISO3166": "UA",
+        "Zona horaria": "Hora est�ndar FLE",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Helsinki, Kyiv, Riga, Sofia, Tallin, Vilna"
+      },
+      {
+        "Pais": "Emiratos �rabes Unidos",
+        "ISO3166": "AE",
+        "Zona horaria": "Hora est�ndar �rabe",
+        "UTC": "(UTC+04:00)",
+        "Descripci�n de la zona horaria": "Abu Dabi, Muscat"
+      },
+      {
+        "Pais": "Reino Unido",
+        "ISO3166": "GB",
+        "Zona horaria": "Hora est�ndar GMT",
+        "UTC": "(UTC)",
+        "Descripci�n de la zona horaria": "Dubl�n, Edimburgo, Lisboa, Londres"
+      },
+      {
+        "Pais": "Estados Unidos",
+        "ISO3166": "US",
+        "Zona horaria": "Hora est�ndar de las Monta�as",
+        "UTC": "(UTC-07:00)",
+        "Descripci�n de la zona horaria": "Hora de la monta�a (Canad� de EE. UU. & )"
+      },
+      {
+        "Pais": "Estados Unidos",
+        "ISO3166": "US",
+        "Zona horaria": "Hora est�ndar del Pac�fico",
+        "UTC": "(UTC-08:00)",
+        "Descripci�n de la zona horaria": "Hora del Pac�fico (Canad� de EE. UU. & )"
+      },
+      {
+        "Pais": "Uruguay",
+        "ISO3166": "UY",
+        "Zona horaria": "Hora est�ndar de Montevideo",
+        "UTC": "(UTC-03:00)",
+        "Descripci�n de la zona horaria": "Montevideo"
+      },
+      {
+        "Pais": "Uzbekist�n",
+        "ISO3166": "UZ",
+        "Zona horaria": "Hora est�ndar Asia Occidental",
+        "UTC": "(UTC+05:00)",
+        "Descripci�n de la zona horaria": "Ashgabat, Tashkent"
+      },
+      {
+        "Pais": "Vanuatu",
+        "ISO3166": "VU",
+        "Zona horaria": "Hora est�ndar del Pac�fico Central",
+        "UTC": "(UTC+11:00)",
+        "Descripci�n de la zona horaria": "Salom�n Es., Nueva Guinea"
+      },
+      {
+        "Pais": "Ciudad del Vaticano",
+        "ISO3166": "VA",
+        "Zona horaria": "Hora est�ndar Europa Oriental",
+        "UTC": "(UTC+01:00)",
+        "Descripci�n de la zona horaria": "�msterdam, Berl�n, Berna, Roma, Estocolmo, Viena"
+      },
+      {
+        "Pais": "Vietnam",
+        "ISO3166": "VN",
+        "Zona horaria": "Hora est�ndar de Asia Sureste",
+        "UTC": "(UTC+07:00)",
+        "Descripci�n de la zona horaria": "Bangkok, Hanoi, Jakarta"
+      },
+      {
+        "Pais": "Islas V�rgenes de EE. UU.",
+        "ISO3166": "VI",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Islas V�rgenes Brit�nicas",
+        "ISO3166": "VG",
+        "Zona horaria": "Hora est�ndar del Este, Sudam�rica",
+        "UTC": "(UTC-04:00)",
+        "Descripci�n de la zona horaria": "Georgetown, La Paz, Manaus, San Juan"
+      },
+      {
+        "Pais": "Wallis y Futuna",
+        "ISO3166": "WF",
+        "Zona horaria": "UTC+12",
+        "UTC": "(UTC+12:00)",
+        "Descripci�n de la zona horaria": "Hora universal coordinada+12"
+      },
+      {
+        "Pais": "Yemen",
+        "ISO3166": "YE",
+        "Zona horaria": "Hora est�ndar �rabe",
+        "UTC": "(UTC+03:00)",
+        "Descripci�n de la zona horaria": "Kuwait, Riad"
+      },
+      {
+        "Pais": "Zambia",
+        "ISO3166": "ZM",
+        "Zona horaria": "Hora est�ndar de Sud�frica",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Harare, Comento"
+      },
+      {
+        "Pais": "Zimbabue",
+        "ISO3166": "ZW",
+        "Zona horaria": "Hora est�ndar de Sud�frica",
+        "UTC": "(UTC+02:00)",
+        "Descripci�n de la zona horaria": "Harare, Comento"
+      }
+    ]

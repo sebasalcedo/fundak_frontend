@@ -1,0 +1,113 @@
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+  <div class="card">
+    <div class="card-header">
+      <div class="float-right">
+        <a
+          [routerLink]="['/dashboard/programs/registerPrograms']"
+          routerLinkActive="router-link-active"
+          class="pt-2 d-inline-block btn btn-space btn-secondary"
+        >
+          <i class="fas fa-plus-circle"></i> New Programs
+        </a>
+      </div>
+      <div class="pt-2 d-inline-block">
+        <h3 class="mb-0">Programs List</h3>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="float-right">
+        <app-search (messageEvent)="receiveSearch($event)"></app-search>
+      </div>
+      <div class="pt-2 d-inline-block">
+       
+        <select class="form-control" placeholder="Selecciona un filtro" required>
+          <option selected disabled>select filter type</option>
+          <option value="ninguno">mostrar todos</option>
+          <option value="active">Active</option>
+          <option value="expire">Expire</option>
+          <option value="buzon">Buzon</option>
+
+        </select>
+      
+      </div>
+   
+ 
+      <hr>
+
+      <div class="table-responsive">
+        <table
+          id="example2"
+          class="table table-striped table-bordered"
+          style="width: 100%"
+        >
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>program name</th>
+              <th>Description</th>
+              <th>Menu option</th>
+              <th>Type</th>
+              <th>Coverage</th>
+              <th>Timezone_from</th>
+              <th>start_date</th>
+              <th>end_date</th>
+              <th>actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of listPrograms | paginate:page_size:page_number | searchFilter:filterText; let i = index">
+              <th>{{ i + 1 }}</th>
+              <td>{{ item.program_name }}</td>
+              <td>{{ item.description }}</td>
+              <td>{{ item.menu_option }}</td>
+              <td>{{ item.type }}</td>
+              <td>{{ item.coverage }}</td>
+              <td>{{ item.Timezone_from }}</td>
+              <td>{{ item.start_date | date }}</td>
+              <td>{{ item.end_date | date }}</td>
+              <td>
+                <div class="btn-group ml-auto">
+                  <a class="btn btn-sm btn-outline-light" matTooltip="Edit Program"  matTooltipPosition="above"[routerLink]="['/dashboard/programs/UpdatedProgram/',item.id]" routerLinkActive="router-link-active" >
+                    <i class="fas fa-pencil-alt"></i>
+                  </a>
+                  <button class="btn btn-sm btn-outline-light" (click) = "openDialog(item)"  matTooltip="View Steps"
+                  matTooltipPosition="above">
+                    <i class="fas fa-eye" ></i>
+                  </button>
+
+                  <!-- <button class="btn btn-sm btn-outline-light">
+                    <i class="far fa-trash-alt"></i>
+                  </button>  -->
+                </div>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th>#</th>
+              <th>program name</th>
+              <th>Description</th>
+              <th>Menu option</th>
+              <th>Type</th>
+              <th>Coverage</th>
+              <th>Timezone_from</th>
+              <th>start_date</th>
+              <th>end_date</th>
+              <th>actions</th>
+            </tr>
+          </tfoot>
+        </table>
+        <mat-paginator
+          #paginator
+          [pageSize]="page_size"
+          [pageSizeOptions]="[10, 15, 50, 100]"
+          [showFirstLastButtons]="true"
+          [length]="listPrograms.length"
+          [pageIndex]="currentPage"
+          (page)="handlePage($event)"
+        >
+        </mat-paginator>
+      </div>
+    </div>
+  </div>
+</div>

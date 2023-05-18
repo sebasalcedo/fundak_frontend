@@ -1,0 +1,310 @@
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+  <div class="card">
+    <h5 class="card-header">Programs</h5>
+    <div class="card-body">
+
+
+      <!-- Stepper para crear el program y crear los pasos del programa -->
+
+      <mat-stepper [linear]="isLinear" #stepper>
+        <mat-step [stepControl]="programs" label="register Programs">
+          <!-- Formulario para crear el nuevo programa -->
+
+          <div class="form-group row">
+            <label class="col-12 col-sm-3 col-form-label text-sm-right"
+              >Lines</label
+            >
+            <div class="col-12 col-sm-8 col-lg-6">
+              <app-autocomplete
+                [listData]="listadoGroupsLineas"
+                (dataEvent)="receiveData($event)"
+              ></app-autocomplete>
+            </div>
+          </div>
+    
+          <div class="form-group row">
+            <label class="col-12 col-sm-3 col-form-label text-sm-right"></label>
+            <div class="col-12 col-sm-8 col-lg-6" *ngIf="listGroup.length !== 0">
+              <form [formGroup]="grupos">
+                <table class="table table-responsive">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Group</th>
+                      <th>Level</th>
+                      <th>Position</th>
+                      <th>Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody formArrayName="grupos">
+                    <tr
+                      *ngFor="let trabajo of listGroup.controls; let i = index"
+                      [formGroupName]="i"
+                    >
+                      <td>{{ i + 1 }}</td>
+                      <td>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="program name"
+                          formControlName="name"
+                        />
+                      </td>
+                      <td>
+                        <select
+                          class="form-control"
+                          formControlName="level"
+                          required
+                        >
+                          <option selected disabled>Selection options</option>
+    
+                          <option value="1">1</option>
+    
+                          <option value="2">2</option>
+    
+                          <option value="3">3</option>
+                        </select>
+                      </td>
+                      <td>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="program position"
+                          formControlName="position"
+                        />
+                      </td>
+                      <td>
+                        <button
+                          class="btn btn-space btn-secondary"
+                          type="reset"
+                          (click)="borrarGroup(i)"
+                        >
+                          <i class="far fa-trash-alt"></i>
+                        </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </form>
+            </div>
+          </div>
+    
+          <hr />
+
+          <form
+            id="validationform"
+            [formGroup]="programs"
+            novalidate
+          >
+            <h2>formulario para el registro del nuevo programa</h2>
+            <div class="form-group row">
+              <label class="col-12 col-sm-3 col-form-label text-sm-right"
+                >Program Name</label
+              >
+              <div class="col-12 col-sm-8 col-lg-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="program name"
+                  formControlName="program_name"
+                  required
+                />
+              </div>
+              <div
+                *ngIf="
+                  programs.controls['program_name'].invalid &&
+                  (programs.controls['program_name'].dirty ||
+                    programs.controls['program_name'].touched)
+                "
+                class="alert alert-danger"
+              >
+                <div
+                  *ngIf="programs.controls['program_name'].errors?.['required']"
+                >
+                  Name is required.
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-12 col-sm-3 col-form-label text-sm-right"
+                >Type</label
+              >
+              <div class="col-12 col-sm-8 col-lg-6">
+                <input
+                  type="text"
+                  required
+                  placeholder="Type"
+                  class="form-control"
+                  formControlName="type"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label class="col-12 col-sm-3 col-form-label text-sm-right"
+                >Coverage</label
+              >
+              <div class="col-12 col-sm-8 col-lg-6">
+                <select
+                  class="form-control"
+                  formControlName="coverage"
+                  placeholder="select Options"
+                  required
+                >
+                  <option selected disabled>Selection options</option>
+
+                  <option
+                    *ngFor="let coverage of ListCoverage"
+                    [value]="coverage.name"
+                  >
+                    {{ coverage.name }}
+                  </option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-12 col-sm-3 col-form-label text-sm-right"
+                >Menu option</label
+              >
+              <div class="col-12 col-sm-8 col-lg-6">
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  formControlName="menu_option"
+                  rows="3"
+                  required
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label class="col-12 col-sm-3 col-form-label text-sm-right"
+                >Program type</label
+              >
+              <div class="col-12 col-sm-8 col-lg-6">
+                <select
+                  class="form-control"
+                  formControlName="program_type"
+                  required
+                >
+                  <option selected disabled>Selection options</option>
+
+                  <option
+                    *ngFor="let type of ListProgramType"
+                    [value]="type.name"
+                  >
+                    {{ type.name }}
+                  </option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-12 col-sm-3 col-form-label text-sm-right"
+                >Subcategory</label
+              >
+              <div class="col-12 col-sm-8 col-lg-6">
+                <select
+                  class="form-control"
+                  formControlName="Subcategory"
+                  required
+                >
+                  <option selected disabled>Selection options</option>
+
+                  <option
+                    *ngFor="let item of listSubCategory"
+                    [value]="item.name"
+                  >
+                    {{ item.name }}
+                  </option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-12 col-sm-3 col-form-label text-sm-right"
+                >Timezone from</label
+              >
+              <div class="col-12 col-sm-8 col-lg-6">
+                <select
+                  class="form-control"
+                  formControlName="timezone_from"
+                  required
+                >
+                  <option selected disabled>Selection options</option>
+
+                  <option *ngFor="let time of ListTimeZone" [value]="time.Pais">
+                    {{ time.Pais }} - {{ time.UTC }}
+                  </option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-12 col-sm-3 col-form-label text-sm-right"
+                >Chatbot</label
+              >
+              <div class="col-12 col-sm-8 col-lg-6">
+                <select class="form-control" formControlName="chatbot" required>
+                  <option selected disabled>Selection options</option>
+
+                  <option *ngFor="let item of ListchatBot" [value]="item.name">
+                    {{ item.name }}
+                  </option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label class="col-12 col-sm-3 col-form-label text-sm-right"
+                >duration of the program</label
+              >
+              <div class="col-12 col-sm-8 col-lg-6">
+                <mat-form-field appearance="fill" class="date-picker">
+                  <mat-date-range-input [rangePicker]="picker">
+                    <input
+                      matStartDate
+                      formControlName="start_date"
+                      placeholder="Start date"
+                      min="{{ dateNow }}"
+                    />
+                    <input
+                      matEndDate
+                      formControlName="end_date"
+                      placeholder="End date"
+                      min="{{ dateNow }}"
+                    />
+                  </mat-date-range-input>
+                  <mat-datepicker-toggle
+                    matIconSuffix
+                    [for]="picker"
+                  ></mat-datepicker-toggle>
+                  <mat-date-range-picker #picker></mat-date-range-picker>
+                </mat-form-field>
+              </div>
+            </div>
+
+            <div class="form-group row text-right">
+              <div class="col col-sm-10 col-lg-9 offset-sm-1 offset-lg-0">
+
+                <div>
+                  <button class="btn btn-space btn-primary" matStepperNext [disabled]="programs.invalid || grupos.invalid" (click)="enviarDatos()">Next</button>
+                </div>
+               
+              </div>
+            </div>
+          </form>
+        </mat-step>
+        <mat-step [stepControl]="secondFormGroup" label="register steps">
+
+          <!-- Formulario para crear los paso a pasos -->
+
+          <app-steps (messageEvent)="receiveSteps($event)"></app-steps>
+
+
+        </mat-step>
+
+      </mat-stepper>
+
+      
+    </div>
+  </div>
+</div>

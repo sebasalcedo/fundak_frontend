@@ -1,0 +1,77 @@
+<h2 mat-dialog-title>line: <strong>{{ data.line }}</strong></h2>
+<mat-dialog-content class="mat-typography">
+  <hr>
+  <p>Formulario para la edición, registro o eliminación de un grupo</p>
+  <form id="validationform" [formGroup]="groupForm">
+    <div class="form-group row">
+      <label class="col-12 col-sm-3 col-form-label text-sm-right">Name</label>
+      <div class="col-12 col-sm-8 col-lg-7">
+        <input type="text" required placeholder="Name Group" formControlName="name">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-12 col-sm-3 col-form-label text-sm-right">Description</label>
+      <div class="col-12 col-sm-10 col-lg-7">
+        <textarea placeholder="Description Group" formControlName="description"></textarea>
+      </div>
+    </div>
+
+    <div class="form-group row text-right">
+      <div class="col col-sm-10 col-lg-9 offset-sm-1 offset-lg-0">
+        <div *ngIf="!cambioButton; else loggedOut">
+          <button type="submit" class="btn btn-space btn-primary" (click)="registerNewGroups()">Register</button>
+        </div>
+
+        <ng-template #loggedOut>
+          <button class="btn btn-space btn-secondary" (click)="editGroupById()">Update</button>
+        </ng-template>
+      </div>
+    </div>
+  </form>
+  <hr>
+  <h2>List Groups</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of listGroups; index as i">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>{{ item.name }}</td>
+        <td>{{ item.description }}</td>
+        <td>
+          <div class="btn-group ml-auto">
+            <button
+              class="btn btn-sm btn-outline-light"
+              matTooltip="Edit Group"
+              matTooltipPosition="above"
+              atTooltipHideDelay="100000"
+              (click)="getGroupById(item.id)"
+            >
+              Edit
+            </button>
+
+            <button
+              class="btn btn-sm btn-outline-light"
+              matTooltip="Delete Group"
+              matTooltipPosition="above"
+              atTooltipHideDelay="100000"
+              (click)="deleteGroupById(item.id)"
+            >
+              <i class="far fa-trash-alt"></i>
+            </button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button class="btn btn-space btn-secondary" mat-dialog-close>Close</button>
+</mat-dialog-actions>

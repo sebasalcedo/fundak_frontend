@@ -1,0 +1,118 @@
+<br />
+<div class="row">
+  <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+    <div class="card">
+      <h5 class="card-header">Formulario de registro</h5>
+      <div class="card-body">
+        <form [formGroup]="steps" id="basicform" novalidate (ngSubmit)="registerStep()"> 
+          <div class="form-group">
+            <label for="number_steps">Number step</label>
+            <input
+              class="form-control"
+              id="number_steps"
+              type="number"
+              name="step"
+              formControlName="numberStep"
+              placeholder="Register number"
+              autocomplete="off"
+              min="1"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="inputPassword">Interaction</label>
+            <select
+              class="form-control"
+              placeholder="select Options"
+              formControlName="interaction"
+              required
+            >
+              <option selected disabled>Selection options</option>
+
+              <option value="informative">3 - informative</option>
+              <option value="question">4 - question</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="description_step">Description</label>
+            <textarea
+              class="form-control"
+              id="description_step"
+              formControlName="description"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label>Media</label>
+            <select
+              class="form-control"
+              formControlName="media"
+              placeholder="select Options"
+              required
+            >
+              <option selected disabled>Selection options</option>
+
+              <option value="IMG">IMG</option>
+              <option value="VIDEO">VIDEO</option>
+            </select>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6 pb-2 pb-sm-4 pb-lg-0 pr-0"></div>
+            <div class="col-sm-6 pl-0">
+              <div class="text-right">
+                <button type="submit" class="btn btn-space btn-primary">
+                  {{messageButton}}
+            </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+    <div class="card">
+      <h5 class="card-header">tabla de steps</h5>
+      <div class="card-body">
+        <table style="width: 100%;" class="table table-responsive">
+          <thead>
+            <th>Number Step</th>
+            <th>Interaction</th>
+            <th>Description</th>
+            <th>media</th>
+            <th>Actions</th>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of stepList; let i = index">
+              <td>{{item.numberStep}}</td>
+              <td>{{item.interaction}}</td>
+              <td>{{item.description}}</td>
+              <td>{{item.media}}</td>
+              <td>
+                <div class="btn-group ml-auto">
+                  <button class="btn btn-sm btn-outline-light" (click)="selectStep(i)">Edit</button>
+                  <button class="btn btn-sm btn-outline-light" (click)="deleteStep(i)">
+                      <i class="far fa-trash-alt"></i>
+                  </button>
+              </div>
+              </td>
+
+             
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="text-right">
+  <button class="btn btn-rounded btn-brand" matStepperPrevious>Back</button>
+  <button class="btn btn-rounded btn-secondary" (click)="registerData()">{{messageFinal}}</button>
+</div>
